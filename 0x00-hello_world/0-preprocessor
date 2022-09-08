@@ -1,6 +1,2 @@
-#!/bin/bash
+#!/binbash
 #include <stdio.h>
-int main (void)
-{
-return (0);
-}
