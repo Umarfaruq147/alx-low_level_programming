@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE > ${CFILE::-2}".cisfun"
+gcc -o cisfun $CFILE
