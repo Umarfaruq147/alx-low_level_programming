@@ -1,2 +1,1 @@
-#!/binbash
-#include <stdio.h>
+#!/bin/bash
