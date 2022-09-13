@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	while (j++ <= 10)
 	{
-		for (alphabets = 'a'; alphabet <= 'z'; alphabets++)
+		for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 			_putchar(alphabets);
 
 		_putchar('\n');
