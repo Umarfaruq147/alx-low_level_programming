@@ -13,7 +13,7 @@ void print_to_98(int n)
 		for (ka = n; ka > 98; --ka)
 			printf("%d, ", ka);
 	else
-		for (ka = n; ka < 98; --ka)
+		for (ka = n; ka < 98; ++ka)
 			printf("%d, ", ka);
 	printf("98\n");
 }
