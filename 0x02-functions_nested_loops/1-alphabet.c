@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * print_alphabet - prints the alphabet, in lowercase, followed by a line
+ * print_alphabet - function to print abc
  *
- * Return: 0
+ * Return: Always 0
  */
-
 void print_alphabet(void)
 {
 	char bet;
