@@ -18,4 +18,5 @@ int hour, minute;
 		}
 	}
 	_putchar(i);
+
 }
