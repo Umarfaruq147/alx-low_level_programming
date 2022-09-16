@@ -1,13 +1,15 @@
+#include "main.h"
 /**
- * mul - multiples two integers
+ * mul - checks for a digit (0 through 9)
+ * @a: a - variable
+ * @b: b - variable
  *
- * @a: first input
- * @b: second input
- *
- * Return: return results
+ * Return: Always 0
  */
-
-intmul(int a, int b)
+int mul(int a, int b)
 {
-	return (a + b);
+	int mul;
+
+	mul = a * b;
+	return (mul);
 }
