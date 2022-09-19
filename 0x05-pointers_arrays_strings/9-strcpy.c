@@ -2,10 +2,10 @@
 
 /**
  * _strcpy - copy the string pointed to by a src to dest
- * @dset: char to check
+ * @dest: char to check
  * @src: char to check
  * Umarfaruq - Author
- * return: 0 is success
+ * Return: 0 is success
  */
 
 char *_strcpy(char *dest, char *src)
