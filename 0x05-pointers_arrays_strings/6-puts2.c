@@ -8,7 +8,7 @@
  * Return: 0 is success
  */
 
-void puts2(cahr *str)
+void puts2(char *str)
 {
 	int string;
 
