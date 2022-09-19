@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev-string - reverse a string
+ * rev_string - reverse a string
  * _putchar - print each character
  * @s: char to check
  * Umarfaruq - Author
