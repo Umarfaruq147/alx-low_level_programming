@@ -4,6 +4,7 @@
  * rev-string - reverse a string
  * _putchar - print each character
  * @s: char to check
+ * Umarfaruq - Author
  * Return: 0 is success
  */
 
