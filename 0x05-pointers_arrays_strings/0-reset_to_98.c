@@ -6,14 +6,8 @@
  *
  * Return: 0
  */
-
-int main(void)
+void reset_to_98(int *n);
 {
-	int n;
-
-	n = 402;
-	putchar("n=%d\n", n);
-	reset_to_98(&n);
-	putchar("n=%d\n", n);
+	n = 98;
 	return (0);
 }
