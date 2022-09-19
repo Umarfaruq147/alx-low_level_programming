@@ -1,14 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check code
- *
- * Return: 0
+ * reset_to_98 - Take a pointer to an int as parameter and updates
+ * the value it points to 98
+ * @n: A pointer to an int
  */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-	int n;
-	n = 98;
-	return (0);
+	*n = 98;
 }
