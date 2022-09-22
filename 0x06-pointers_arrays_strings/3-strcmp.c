@@ -1,19 +1,28 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check code
+ * _strcmp - a function that compares two strings
  *
- * Return: Always 0
+ * @s1: string 1 input to compare
+ * @s2: against this other string 2
+ *
+ * Return: 0 if s1 and s2 are equal
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	char s1[] = "Hello";
-	char s2[] = "World!";
-
-	printf("%n", _strcmp(s1, s2));
-	printf("%n", _strcmp(s2, s1));
-	printf("%n", _strcmp(s1, s1));
-	return (0);
+	int i = 0, r;
+	while (s1[i] != '\0' && s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+		{
+			r = s1[i] - s2[i];
+			break;
+		}
+		else
+		{
+			r = s1[i] - s[i];
+		}
+		i++;
+	}
+	return (r);
 }
