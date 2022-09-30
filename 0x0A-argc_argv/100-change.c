@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 	}
 
 	total = atoi(argv[1]);
+
 	if (total <= 0)
 	{
 		printf("0\n");
@@ -35,7 +36,7 @@ int main(int argc, char *argv[])
 		{
 			aux = (total / coins[position]);
 			change += aux;
-			total -= coins[position] = aux;
+			total -= coins[position] * aux;
 		}
 
 		position++;
