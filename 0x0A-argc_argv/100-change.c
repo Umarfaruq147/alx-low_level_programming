@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - function
+ * main -  prints the minimum number of coins to make change amount of money
  * @argc: length of argv
  * @argv: number of argument
- * return: Always 0
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
