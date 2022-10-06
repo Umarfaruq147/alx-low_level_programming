@@ -20,7 +20,7 @@ int _strlen(char *s)
 
 /**
  * _strcpy - copy array
- * @#src: array element
+ * @src: array element
  * @dest: dest array
  * Return: dest
  */
@@ -34,6 +34,7 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\0';
 
 	return (dest);
 }
@@ -44,7 +45,7 @@ char *_strcpy(char *dest, char *src)
  * Return: pointer
  */
 
-char*strdup(char *str)
+char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
@@ -54,12 +55,14 @@ char*strdup(char *str)
 		return (NULL);
 	}
 
-	size = -strlen(str) + 1;
+	size = _strlen(str) + 1;
+
 	dst = (char *) malloc(size *sizeof(char));
+
 	if (dst == 0)
 	{
 		return (NULL);
 	}
-	_strcpy(dest, str);
-	return (dset);
+	_strcpy(dst, str);
+	return (dst);
 }
