@@ -4,7 +4,7 @@
  * array_range - creates an array of integers
  * @min: minimum
  * @max: maximum
- * return: array
+ * Return: array
  */
 int *array_range(int min, int max)
 {
