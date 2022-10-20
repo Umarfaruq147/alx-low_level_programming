@@ -14,7 +14,7 @@
  * Description: Singly linked list node structure
  *              for project
  */
-typedof struct list_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
