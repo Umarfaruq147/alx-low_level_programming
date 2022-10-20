@@ -7,12 +7,10 @@
 
 /**
  * struct list_s - singly linked lists
- * @str: string (malloc'ed string)
+ * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- * 
- * Description: Singly linked list node structure
- *              for project
+ * Description: Singly linked list node structure for project
  */
 typedef struct list_s
 {
