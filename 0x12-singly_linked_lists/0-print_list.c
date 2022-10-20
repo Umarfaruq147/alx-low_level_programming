@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_lists - print list
+ * print_list - print list
  * @h: parameter
  * Return: struct
  */
@@ -20,5 +20,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		l_node;
 	}
-	return l_node;
+	return (l_node);
 }
